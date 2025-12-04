@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pysparkTrainDataETL
+  description: "Servicio generado con el template Spring Boot Clean Architecture"
+  tags:
+    - java
+    - springboot
+    - clean-architecture
+spec:
+  type: service
+  lifecycle: production
+  owner: user:davidelorzag
+
+  # URL del repositorio generado automáticamente
+  links:
+    - url: https://github.com/davyyelor/pysparkTrainDataETL
+      title: Repositorio GitHub
+      icon: github
