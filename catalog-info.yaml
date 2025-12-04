@@ -10,7 +10,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: user:developers
+  owner: group:developers
 
   dependsOn:
     - resource:default/aws-sqs-payments
@@ -19,3 +19,4 @@ spec:
     - url: https://github.com/davyyelor/pysparkTrainDataETL
       title: Repositorio GitHub
       icon: github
+
